@@ -123,3 +123,4 @@ app.get('/',(req,res)=>{
 app.listen(PORT,()=>{
     console.log(`server is running at ${PORT}`)
 })
+export default app 
